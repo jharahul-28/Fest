@@ -1,0 +1,77 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+nav ul{
+    list-style: none;
+    padding-right: 20px;
+    display: flex;
+}
+
+nav ul li{
+    padding-right: 20px;
+}
+
+.hero-bg{
+    background-image: url("Image/festHeroBg.jpg");
+    width: 100vw;
+    height: 50vh;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.hero-bg h1{
+    padding-top: 30vh;    
+}
+
+.sec-1{
+    text-align: center;
+    background-color: rgb(255, 254, 211);
+    padding: 10px;
+    font-size: larger;
+}
+
+.button{
+    background-color: purple;
+    color: white;
+    padding: 1rem;
+    width: fit-content;
+    margin-left: 45vw;
+}
+
+.sec-2{
+    text-align: center;
+}
+
+.segments{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.segments p{
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.segments ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.segments ul li{
+    padding-bottom: 5px;
+}
+
+.segment{
+    border: 1px solid grey;
+    border-radius: 20px;
+    padding: 1rem;
+    width: 15vw;
+}
