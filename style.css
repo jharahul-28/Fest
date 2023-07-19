@@ -40,6 +40,13 @@ nav ul li{
     padding: 1rem;
     width: fit-content;
     margin-left: 45vw;
+    border-radius: 15px;
+}
+
+.button:hover{
+    border: 1px solid purple;
+    color: white;
+    background-color: white;
 }
 
 .sec-2{
